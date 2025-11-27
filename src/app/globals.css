@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: iransans;
+  src: url("./font/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2");
+}
+
+body{
+  font-family:iransans;
+  background-color: black;
+  scroll-behavior: smooth;
+}
+.stroke-box {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.group:hover .stroke-box {
+  stroke-dashoffset: 0;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #dbf52f !important; /* رنگ دلخواه */
+  stroke: #dbf52f !important;
+  fill: #dbf52f !important;
+}
+
